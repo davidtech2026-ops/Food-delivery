@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="844" viewBox="0 0 390 844">
+<defs>
+  <linearGradient id="warm" x1="0" x2="1" y1="0" y2="1">
+    <stop offset="0" stop-color="#ffe1c9"/><stop offset="1" stop-color="#ffb88d"/>
+  </linearGradient>
+  <linearGradient id="green" x1="0" x2="1" y1="0" y2="1">
+    <stop offset="0" stop-color="#d8ebcc"/><stop offset="1" stop-color="#a8cc95"/>
+  </linearGradient>
+</defs>
+<rect x="0" y="0" width="390" height="844" rx="0" fill="#fff" stroke="none"/>
+<text x="24" y="22" text-anchor="start" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="700" fill="#272a24">9:41</text>
+<text x="338" y="22" text-anchor="start" font-family="Inter,Arial,sans-serif" font-size="9" font-weight="650" fill="#272a24">●  ▰  ▰</text>
+<text x="24" y="76" text-anchor="start" font-family="Inter,Arial,sans-serif" font-size="19" font-weight="800" fill="#ef6a3a">●  localbite</text><rect x="0" y="105" width="390" height="435" rx="0" fill="url(#warm)" stroke="none"/><text x="195" y="205" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="800" fill="#92502f">GOOD FOOD,</text><text x="195" y="244" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="30" font-weight="800" fill="#27251f">right around</text><text x="195" y="281" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="30" font-weight="800" fill="#27251f">the corner.</text><rect x="94" y="317" width="202" height="177" rx="18" fill="#edac76" stroke="none"/><circle cx="195.0" cy="405.5" r="54.87" fill="#fff6e8"/><circle cx="195.0" cy="405.5" r="42.48" fill="#d97839"/><text x="195.0" y="414.5" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="26" font-weight="500" fill="#fff">🍛</text><text x="195" y="584" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="750" fill="#20231f">Your neighborhood, served.</text><text x="195" y="614" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="500" fill="#77796f">Discover local kitchens and get the good stuff</text><text x="195" y="634" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="500" fill="#77796f">delivered fresh to your door.</text><rect x="24" y="672" width="342" height="54" rx="16" fill="#ef6a3a" stroke="none"/><text x="195.0" y="706" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="700" fill="#ffffff">Use my current location</text><text x="195" y="750" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700" fill="#ef6a3a">Enter address manually</text><text x="195" y="814" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="600" fill="#797b72">Continue as guest</text>
+</svg>

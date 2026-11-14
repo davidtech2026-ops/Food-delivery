@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f7f6f1">
+    <meta name="description" content="LocalBite neighborhood food delivery workspace.">
+    <title>LocalBite</title>
+    <link rel="stylesheet" href="/css/app.css">
+    <script src="/js/config.js" defer></script>
+    <script src="/js/app.js" defer></script>
+  </head>
+  <body>
+    <div class="app-shell" id="app">
+      <aside class="sidebar">
+        <a class="brand" href="/app.html" aria-label="LocalBite">
+          <span class="brand-mark">l</span>
+          <span>local<span class="brand-accent">bite</span></span>
+        </a>
+        <div class="sidebar-role" id="sidebar-role"></div>
+        <nav class="side-nav" id="side-nav" aria-label="Main navigation"></nav>
+        <div class="sidebar-bottom">
+          <div class="sidebar-help"><span>✦</span><strong>Good food, closer.</strong><small>Support your neighborhood.</small></div>
+          <button class="signout-button" type="button" data-action="signout">↪ <span>Sign out</span></button>
+        </div>
+      </aside>
+      <main class="main-panel">
+        <header class="topbar">
+          <div class="mobile-brand">
+            <a class="brand" href="/app.html" aria-label="LocalBite"><span class="brand-mark">l</span><span>local<span class="brand-accent">bite</span></span></a>
+          </div>
+          <div class="topbar-copy">
+            <span class="topbar-eyebrow" id="topbar-eyebrow">YOUR LOCAL FOOD COMMUNITY</span>
+            <h1 id="page-title">Welcome</h1>
+          </div>
+          <div class="topbar-user">
+            <span class="avatar" id="user-avatar">L</span>
+            <span><strong id="user-name">LocalBite user</strong><small id="user-role">Customer</small></span>
+          </div>
+        </header>
+        <div id="toast" class="toast" role="status" aria-live="polite"></div>
+        <section id="screen" class="screen" aria-live="polite">
+          <div class="loading-card"><span class="spinner"></span><p>Setting up your LocalBite space…</p></div>
+        </section>
+        <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation"></nav>
+      </main>
+    </div>
+  </body>
+</html>

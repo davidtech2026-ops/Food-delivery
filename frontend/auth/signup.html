@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f7f6f1">
+    <meta
+      name="description"
+      content="Create your LocalBite account and discover neighborhood restaurants."
+    >
+    <title>Create your account · LocalBite</title>
+    <link rel="stylesheet" href="../css/auth.css">
+    <script src="../js/config.js" defer></script>
+    <script src="../js/auth.js" defer></script>
+  </head>
+  <body>
+    <main class="auth-layout">
+      <aside class="story-panel" aria-label="About LocalBite">
+        <a class="brand" href="../mockups/index.html" aria-label="LocalBite home">
+          <span class="brand-mark" aria-hidden="true">l</span>
+          <span>local<span class="brand-accent">bite</span></span>
+        </a>
+
+        <div class="story-copy">
+          <span class="eyebrow"><span class="live-dot" aria-hidden="true"></span> GOOD FOOD, CLOSE TO HOME</span>
+          <h1>Your next<br>favorite meal<br>is just around<br>the corner.</h1>
+          <p>Meet the neighborhood kitchens making something special. Order local, eat happy.</p>
+        </div>
+
+        <div class="food-art" aria-hidden="true">
+          <span class="food-art__spark food-art__spark--one">✳</span>
+          <div class="food-art__plate">
+            <div class="food-art__meal">
+              <span class="meal-leaf meal-leaf--one"></span>
+              <span class="meal-leaf meal-leaf--two"></span>
+              <span class="meal-dot meal-dot--one"></span>
+              <span class="meal-dot meal-dot--two"></span>
+              <span class="meal-dot meal-dot--three"></span>
+            </div>
+          </div>
+          <span class="food-art__spark food-art__spark--two">✦</span>
+          <div class="floating-note">
+            <span class="floating-note__icon" aria-hidden="true">⌖</span>
+            <span><strong>Made nearby</strong><small>Delivered with a little love</small></span>
+          </div>
+        </div>
+
+        <div class="story-footer">
+          <span>Good food brings us together.</span>
+          <span class="story-footer__dots" aria-hidden="true">● ● ●</span>
+        </div>
+      </aside>
+
+      <section class="form-panel" aria-labelledby="signup-title">
+        <div class="form-topline">
+          <a class="brand brand--compact" href="../mockups/index.html" aria-label="LocalBite home">
+            <span class="brand-mark" aria-hidden="true">l</span>
+            <span>local<span class="brand-accent">bite</span></span>
+          </a>
+          <p>Already have an account? <a href="./signin.html">Sign in</a></p>
+        </div>
+
+        <div class="form-content">
+          <span class="eyebrow form-eyebrow">A SEAT AT THE TABLE</span>
+          <h2 id="signup-title">Create your account</h2>
+          <p class="form-intro">Join your local food community and discover your neighborhood kitchens.</p>
+
+          <form id="signup-form" action="#" method="get">
+            <fieldset class="role-picker">
+              <legend>How will you use LocalBite?</legend>
+              <div class="role-options">
+                <label class="role-option">
+                  <input type="radio" name="role" value="customer" checked>
+                  <span class="role-option__content"><span aria-hidden="true">♙</span> Customer</span>
+                </label>
+                <label class="role-option">
+                  <input type="radio" name="role" value="business">
+                  <span class="role-option__content"><span aria-hidden="true">⌂</span> Business</span>
+                </label>
+                <label class="role-option">
+                  <input type="radio" name="role" value="driver">
+                  <span class="role-option__content"><span aria-hidden="true">↗</span> Driver</span>
+                </label>
+              </div>
+            </fieldset>
+
+            <div class="form-grid">
+              <label class="field">
+                <span class="field__label">First name</span>
+                <span class="input-wrap">
+                  <span class="input-icon" aria-hidden="true">♙</span>
+                  <input name="firstName" type="text" autocomplete="given-name" placeholder="e.g. Amara" required>
+                </span>
+              </label>
+
+              <label class="field">
+                <span class="field__label">Last name</span>
+                <span class="input-wrap">
+                  <span class="input-icon" aria-hidden="true">♙</span>
+                  <input name="lastName" type="text" autocomplete="family-name" placeholder="e.g. Okafor" required>
+                </span>
+              </label>
+
+              <label class="field field--full">
+                <span class="field__label">Email address</span>
+                <span class="input-wrap">
+                  <span class="input-icon" aria-hidden="true">✉</span>
+                  <input name="email" type="email" autocomplete="email" placeholder="you@example.com" required>
+                </span>
+              </label>
+
+              <label class="field field--full">
+                <span class="field__label">Phone number <span aria-hidden="true">(optional)</span></span>
+                <span class="input-wrap">
+                  <span class="input-icon" aria-hidden="true">⌕</span>
+                  <input name="phone" type="tel" autocomplete="tel" placeholder="+234 800 000 0000">
+                </span>
+              </label>
+
+              <label class="field field--full" id="restaurant-field" hidden>
+                <span class="field__label">Restaurant name</span>
+                <span class="input-wrap">
+                  <span class="input-icon" aria-hidden="true">⌂</span>
+                  <input name="restaurantName" type="text" autocomplete="organization" placeholder="Your restaurant name" disabled>
+                </span>
+              </label>
+
+              <label class="field">
+                <span class="field__label">Password</span>
+                <span class="input-wrap">
+                  <span class="input-icon" aria-hidden="true">◇</span>
+                  <input name="password" type="password" autocomplete="new-password" minlength="8" placeholder="At least 8 characters" required>
+                  <button class="password-toggle" type="button" data-password-toggle aria-label="Show password" aria-pressed="false">Show</button>
+                </span>
+              </label>
+
+              <label class="field">
+                <span class="field__label">Confirm password</span>
+                <span class="input-wrap">
+                  <span class="input-icon" aria-hidden="true">◇</span>
+                  <input name="confirmPassword" type="password" autocomplete="new-password" minlength="8" placeholder="Type it again" required>
+                  <button class="password-toggle" type="button" data-password-toggle aria-label="Show confirm password" aria-pressed="false">Show</button>
+                </span>
+              </label>
+            </div>
+
+            <label class="check-row terms-row">
+              <input name="terms" type="checkbox" required>
+              <span>I agree to the LocalBite terms and privacy policy.</span>
+            </label>
+
+            <button class="submit-button" type="submit">Create account <span aria-hidden="true">→</span></button>
+            <p class="form-message" id="signup-message" role="status" aria-live="polite"></p>
+            <p class="form-footnote">Your account is saved to the local app database. Demo checkout does not charge a payment method.</p>
+          </form>
+        </div>
+
+        <p class="mobile-footer">Good food brings us together.</p>
+      </section>
+    </main>
+  </body>
+</html>
